@@ -26,7 +26,7 @@ a {
 .archway {
     width: 100px;
     color:#777;
-    margin: 15px 0;
+    padding: 15px 0;
     padding-left: 50px;
     float: left;
 }
@@ -79,17 +79,17 @@ h1 {
     background-color: #e3f2fd;
     margin-top: 50px 0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
   
 .news-icon {
-    width: 250px;
-    margin: 20px 60px;
+    flex-basis: 40%;
+    margin: 20px 40px;
     float: left;
 }
   
 .news-text {
-    width: 950px;
+    flex-basis: 60%;
     text-align: center;
 }
   

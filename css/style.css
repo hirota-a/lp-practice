@@ -233,6 +233,12 @@ footer p {
 
 /*TAB*/
 @media all and (max-width: 1199px) {
+    .inner {
+        max-width: 1199px;
+        width: 97%;
+        margin: 0 auto;
+    }
+    
     /*keyvisual*/
     .keyvisual {
         padding: 250px 0;
@@ -260,7 +266,7 @@ footer p {
     }
 
     .skills-icon:nth-child(3n+1) {
-        padding-bottom: 50px;
+        padding-bottom: 80px;
     }
 
     .skills-icon img {
@@ -270,6 +276,12 @@ footer p {
 
 /*SP*/
 @media all and (max-width: 767px) {
+    .inner {
+        max-width: 767px;
+        width: 97%;
+        margin: 0 auto;
+    }
+
     /*header*/
     .header-nav {
         display: none;
@@ -307,7 +319,7 @@ footer p {
     }
 
     .skills-icon:nth-child(3n+1) {
-        padding-bottom: 50px;
+        padding-bottom: 80px;
     }
 
     .skills-icon img {
@@ -332,7 +344,7 @@ footer p {
     /*SNS icon*/
     .sns {
         width: 100%;
-        padding: 50px 0;
+        padding: 15px 0;
     }
 
     .sns-btn {

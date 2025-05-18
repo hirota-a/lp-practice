@@ -194,7 +194,6 @@ td:first-child {
 
 .sns-btn li {
     text-align:center;
-    margin: 125px 0;
 }
   
 .sns-btn {
@@ -202,7 +201,7 @@ td:first-child {
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s;
-    margin: 0 30%;
+    padding: 200px 20%;
 }
   
 .btn {
@@ -344,15 +343,20 @@ footer p {
     /*SNS icon*/
     .sns {
         width: 100%;
-        padding: 15px 0;
+    }
+
+    li {
+        display: flex;
     }
 
     .sns-btn {
+        padding: 50px 0;
         flex-direction: column;
         align-items: center;
     }
 
     .btn {
-        padding: 25px 15px;
+        width: 100%;
+        padding: 15px;
     }
 }
